@@ -1,0 +1,48 @@
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    .div1{
+        width: 970px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (max-width: 991px) {
+    .div1{
+        width: 750px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    
+.div1{
+    width: 350px;
+}
+.header{
+    flex-direction: column;
+}
+    .menu ul{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+      
+    }
+
+    .menu ul li a{
+        margin-left: 0;
+    }
+
+    .single-about, .single-services{
+        flex-basis: 100;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
